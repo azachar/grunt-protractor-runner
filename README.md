@@ -5,7 +5,7 @@
 > A Grunt plugin for running [Protractor](https://github.com/angular/protractor) runner.
 
 ## Getting Started
-This plugin requires Grunt `>=0.4.1`.
+This plugin requires Grunt `>=0.4.1` and protractor '^5.x.x'
 
 For Protractor `5.x.x`, please use version `v5.x.x` of this plugin.
 
@@ -162,17 +162,6 @@ Then run `grunt` or `npm test` to test the module. You will encounter these.
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## FAQ
-
-### Q: Want to global installed protractor?
-
-This plugin installs `protractor` module locally as a normal dependency.
-
-In case you want to use the plugin with the global installed protractor command. You can do it with these steps below.
-
-* Remove local install protractor by `rm -rf node_modules/protractor`
-* Install `protractor` globally  with `npm install -g protractor`
-* Make sure that node can resolve the module with `require()` mechanism. See [Module loading from the global folders](http://nodejs.org/api/modules.html#modules_loading_from_the_global_folders) for more information.
-* Run `webdriver-manager update` to install/update selenium driver for global install protractor.
 
 ### Q: Error: Could not find chromedriver at....
 

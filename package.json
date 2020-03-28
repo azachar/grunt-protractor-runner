@@ -23,7 +23,6 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "protractor": "^5.0.0",
     "split": "~1.0.0",
     "through2": "~2.0.0"
   },
@@ -31,9 +30,11 @@
     "grunt-contrib-jshint": "~0.11.3",
     "grunt-contrib-clean": "~0.7.0",
     "grunt-contrib-nodeunit": "~0.4.1",
+    "protractor": "^5.4.3",
     "grunt": "~0.4.1"
   },
   "peerDependencies": {
+    "protractor": "^5",
     "grunt": ">=0.4.0"
   },
   "keywords": [
